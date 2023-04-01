@@ -20,10 +20,10 @@ public class BankAccount {
         this.balance = balance;
     };
     public String getId() {
-        return null;
+        return id;
     };
     public synchronized int getBalance() {
-        return 0;
+        return balance;
     };
     public synchronized void deposit() {
 

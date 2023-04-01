@@ -8,7 +8,7 @@ public class Reflection {
     }
 
     public static void main(String[] args) {
-        showName(BankAccount);
+//        showName(BankAccount);
     }
     // Example 1
     static void showName(Class<?> theClass) { // pass in the instance name of a class

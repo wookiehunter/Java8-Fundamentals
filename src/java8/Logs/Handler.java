@@ -15,7 +15,7 @@ public class Handler {
         logger.setLevel(Level.INFO);
         logger.log(Level.INFO, "Here we go!");
 
-//        fileHander();
+        fileHander();
     }
 
     private static void fileHander() throws IOException {

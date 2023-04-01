@@ -4,8 +4,10 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        // basic();
-        // hash();
+         basic();
+        System.out.println("----------------------");
+         hash();
+        System.out.println("----------------------");
         sorted();
     }
 
@@ -16,7 +18,7 @@ public class Main {
         list1.add("Sausages");
 
         for(String o:list1)
-            System.out.println(o);
+            System.out.println("Print 1: " + o);
 
         ArrayList<String> list2 = new ArrayList<String>();
         list2.add("Sauce");
@@ -25,11 +27,11 @@ public class Main {
 
         list1.addAll(list2);
         for(String o:list1)
-            System.out.println(o);
+            System.out.println("Print 2: " + o);
 
-        System.out.println(list1.contains("Fried Eggs"));
+        System.out.println("Boolean: " + list1.contains("Fried Eggs"));
         list1.remove("Fried Eggs");
-        System.out.println(list1.contains("Fried Eggs"));
+        System.out.println("Boolean: " + list1.contains("Fried Eggs"));
     }
 
     private static void hash() {

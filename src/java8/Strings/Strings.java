@@ -27,8 +27,8 @@ public class Strings {
 
     private static void regex() {
         String s1 = "apple, apple and orange please";
-        String s2 = s1.replace("ple\\b", "ricot");
-        System.out.println(s2);
+        String s2 = s1.replace("ple,", "ricot,");
+        System.out.println("Apricot: " + s2);
 
         String[] parts = s1.split("\\b");
         for (String thePart:parts)

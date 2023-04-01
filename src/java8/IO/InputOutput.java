@@ -36,7 +36,7 @@ public class InputOutput {
 
     public static void doTryWithResources() {
         // with resources example
-        char[] buff = new char[13];
+        char[] buff = new char[5];
         int length;
 
         try (Reader reader = Helper.openReader("file1.txt")) {
